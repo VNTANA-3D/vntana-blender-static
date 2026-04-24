@@ -1,0 +1,35 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "vntana_blender_plugin",
+      "name": "Vntana DAM",
+      "tagline": "Vntana digital asset managment extension for Blender",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Vntana Inc.",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://www.vntana.com/resource/blender-plug-in/",
+      "permissions": {
+        "network": "Sync files from/to Vntana platform",
+        "files": "Save files from Vntana platform to disk"
+      },
+      "platforms": [
+        "windows-x64",
+        "macos-arm64"
+      ],
+      "python_versions": [
+        "3.11",
+        "3.13"
+      ],
+      "archive_url": "./vntana_blender_plugin-1.0.0.zip",
+      "archive_size": 3189974,
+      "archive_hash": "sha256:d586078e8711b0bdaf7a668b2df53facb36836cba6f687b155e2f7688f142e8d"
+    }
+  ]
+}
